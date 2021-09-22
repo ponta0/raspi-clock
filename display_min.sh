@@ -1,0 +1,1 @@
+date +%H:%M | xargs -I AAAA convert -font Helvetica -size 480x320 -fill "#FFFFFF" -gravity center -background "#000000" -pointsize 80 caption:"AAAA" /mnt/ramdisk/tmp.png && sudo fbi -T 1 -d /dev/fb0 -noverbose /mnt/ramdisk/tmp.png
