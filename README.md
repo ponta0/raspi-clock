@@ -2,6 +2,7 @@
 雑なラズパイ時計
 
 ImageMagick必須
+
 ReadOnly化推奨
 ```
 $ sudo apt install imagemagick
